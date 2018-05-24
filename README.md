@@ -14,17 +14,17 @@ After creation, your project should look like this:
 ```
 my-app/
   .gitignore
-  node_modules/		// npm imports
-  package.json		// npm package info
+  node_modules/     // npm imports
+  package.json      // npm package info
   public/
     favicon.png
-    index.html		// html template file
-    manifest.json	// manifest file for browsers
+    index.html      // html template file
+    manifest.json   // manifest file for browsers
   README.md
   src/
-    app.kt			// application render
-    index.kt		// main entry point
-	router.kt		// main router
+    app.kt          // application render
+    index.kt        // main entry point
+	router.kt       // main router
     components/
 	  [component files]
     images/
