@@ -13,28 +13,30 @@ After creation, your project should look like this:
 
 ```
 my-app/
-  README.md
-  node_modules/
-  package.json
   .gitignore
+  node_modules/		// npm imports
+  package.json		// npm package info
   public/
-    favicon.ico
-    index.html
-    manifest.json
+    favicon.png
+    index.html		// html template file
+    manifest.json	// manifest file for browsers
+  README.md
   src/
-    app/
-      App.css
-      App.kt
-    index/
-      index.css
-      index.kt
-    logo/
-      kotlin.svg
-      Logo.css
-      Logo.kt
-      react.svg
-    ticker/
-      Ticker.kt
+    app.kt			// application render
+    index.kt		// main entry point
+	router.kt		// main router
+    components/
+	  [component files]
+    images/
+	  [images imported in kt files]
+	routes/
+	  [route components]
+    styles/
+	  [css files]
+	  components/
+		[css files for components]
+	  routes
+		[css files for routes]
 ```
 
 For the project to build, **these files must exist with exact filenames**:
