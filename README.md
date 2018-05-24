@@ -24,19 +24,19 @@ my-app/
   src/
     app.kt          // application render
     index.kt        // main entry point
-	router.kt       // main router
+    router.kt       // main router
     components/
-	  [component files]
+      [component files]
     images/
-	  [images imported in kt files]
-	routes/
-	  [route components]
+      [images imported in kt files]
+    routes/
+      [route components]
     styles/
-	  [css files]
-	  components/
-		[css files for components]
-	  routes
-		[css files for routes]
+      [css files]
+      components/
+        [css files for components]
+      routes
+        [css files for routes]
 ```
 
 For the project to build, **these files must exist with exact filenames**:
